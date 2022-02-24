@@ -4,7 +4,6 @@ let yourAge = 25;
 console.log("J'ai " + (myAge - yourAge) + " ans de plus que toi.");
 
 // 2 // ---
-
 let age_person = prompt("Année de naissance");
 var date = new Date();
 var m = date.getFullYear();
@@ -18,7 +17,7 @@ if (age_person != string_vide1) {
     console.log(
       "vous avez " + calk_age + " ans. Vous êtes autorisé de conduire."
     );
-    document.getElementById("demo").innerHTML = "En voiture Simone !!!";
+    document.getElementById("demo").innerHTML = "En voiture !!!";
   } else {
     document.getElementById("demo").innerHTML =
       "Attendez encore quelques années avant de conduire";
